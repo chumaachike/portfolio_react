@@ -15,7 +15,7 @@ function Popup({ togglePopup }) {
   );
 }
 Popup.propTypes = {
-    togglePopup: PropTypes.func.isRequired,
+  togglePopup: PropTypes.func.isRequired,
 };
 
 export default Popup;

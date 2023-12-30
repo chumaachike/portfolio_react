@@ -2,6 +2,7 @@ import profilePic from '../images/chuma.png';
 import lang from '../images/language.png';
 import framwork from '../images/frameworks.png';
 import skill from '../images/skills.png';
+import resume from '../documents/Resume.pdf';
 
 function About() {
   return (
@@ -25,7 +26,7 @@ function About() {
             I excel in crafting full-stack solutions and cloud-based architectures.
             My expertise lies in delivering scalable, secure, and innovative applications.
           </p>
-          <a href="./documents/Resume.pdf" target="_blank" className="access-button about-btn">Get My Resume</a>
+          <a href={resume} target="_blank" className="access-button about-btn" rel="noreferrer">Get My Resume</a>
         </div>
       </div>
       <div className="works-container cv-container flex">

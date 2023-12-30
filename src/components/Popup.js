@@ -7,7 +7,7 @@ function Popup({ togglePopup }) {
   };
   return (
     <nav className="interactive-menu">
-      <img src={close} alt="Close menu" title="Close menu" className="close-menu" onClick={handleClick} />
+      <button type="button" onClick={handleClick} className="close-menu"><img src={close} alt="Close menu" title="Close menu" /></button>
       <a href="#works" className="menu-option" onClick={handleClick}>Portfolio</a>
       <a href="#about" className="menu-option" onClick={handleClick}>About</a>
       <a href="#form" className="menu-option" onClick={handleClick}>Contact</a>

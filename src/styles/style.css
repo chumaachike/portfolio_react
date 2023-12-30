@@ -80,6 +80,7 @@ header {
   width: 40px;
   align-self: flex-end;
   margin: 4px 6.5% 20px 0;
+  background-color: #fff;
 }
 
 .menu-option {

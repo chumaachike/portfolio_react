@@ -10,7 +10,7 @@ const works = [
     id: 1,
     name: 'CHU-BAY E-commerce',
     description: 'Developed a full-stack e-commerce application using Spring Boot (Java) for backend services and React with Redux for frontend state management, implementing secure user authentication (JWT), RESTful APIs, and optimizing data handling for a seamless shopping experience.',
-    imageLocation: './images/banner.jpg',
+    imageLocation: chuBay,
     technologies: ['SpringBoot', 'React', 'Postgres'],
     live: 'https://brilliant-pie-dbaf1b.netlify.app/',
     source: 'https://github.com/chumaachike/ecomm-frontend',
